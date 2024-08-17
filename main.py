@@ -4,13 +4,9 @@ from pygame.locals import *
 from OpenGL.GL import *
 from OpenGL.GLU import *
 import math
-from PhysicsEngine.Camera import Camera
-from PhysicsEngine.Vec3D import Vec3D
-from PhysicsEngine.Objects import Cube
-from PhysicsEngine.Objects import Sphere
-from PhysicsEngine.PhysicsEngine import PhysicsEngine
-from PhysicsEngine.Objects import PhysicsObject
-from PhysicsEngine.Objects import RigidSurface
+from PhysicsEngine import *
+from PhysicsEngine.Objects import *
+
 
 ground_vertices = (
     (-100,0,-100),
